@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Diamond Edit | Home</title>
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-        content="The Diamond Edit shares simple stories about high jewelry and diamond auctions." />
-
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-
+  <meta name="description" content="The Diamond Edit shares simple stories about high jewelry and diamond auctions.">
+  
   <!-- AI suggested using Playfair Display to make the site look a bit more elegant. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
   <header>
     <div class="wrapper">
       <div class="site-title">The Diamond Edit</div>
-
       <nav>
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
@@ -35,7 +29,6 @@
     </div>
   </header>
 
-  
   <section class="hero">
     <div class="hero-overlay wrapper">
       <h1>High Jewelry Stories & Diamond Auction Highlights</h1>
@@ -44,37 +37,31 @@
 
   <main class="wrapper">
     <section class="home-grid">
-
- 
+      
       <div>
         <h2 class="section-title">Featured Articles</h2>
-
+        
         <article class="article-card">
           <h3>Modern High Jewelry: Sculptures in Diamonds</h3>
           <p class="article-meta">Trend • April 2025</p>
-          <p>
-            Jewelry houses are creating bold and artistic pieces using clean shapes
-            and large diamonds that stand out.
-          </p>
+          <p>Jewelry houses are creating bold and artistic pieces using clean shapes and large diamonds that stand out.</p>
         </article>
 
         <article class="article-card">
-          <h3>The Season’s Biggest Diamond Auction</h3>
+          <h3>The Season's Biggest Diamond Auction</h3>
           <p class="article-meta">Auction • April 2025</p>
-          <p>
-            A 20-carat stone and rare signed pieces made this one of the most
-            talked-about auctions of the year.
-          </p>
+          <p>A 20-carat stone and rare signed pieces made this one of the most talked-about auctions of the year.</p>
         </article>
       </div>
 
-      <!-- AI helped me set this up because I wasn’t sure where the JS text should appear. -->
+      <!-- AI helped me set this up because I wasn't sure where the JS text should appear. -->
       <aside>
         <h2 class="section-title">Random Diamond Fact</h2>
         <div class="random-fact-box">
-          <p id="fact-text"><!-- JS inserts fact here --></p>
+          <p id="random-fact"></p>
         </div>
       </aside>
+
     </section>
   </main>
 
@@ -82,12 +69,32 @@
     <div class="wrapper footer-inner">
       <div>© 2025 The Diamond Edit</div>
       <div class="footer-links">
-        <a href="contact.html">Contact</a> |
+        <a href="contact.html">Contact</a> | 
         <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script>
+    // Random Diamond Fact - Simple and inline
+    var facts = [
+      "Most diamonds are over 1 billion years old—some are even 3.5 billion years old.",
+      "Diamond is the hardest natural material on Earth, rating 10 on the Mohs scale.",
+      "Diamonds form under extreme heat and pressure 100 miles beneath the Earth's surface.",
+      "A diamond's brilliant sparkle comes from its ability to refract and reflect light perfectly.",
+      "Only about 20% of mined diamonds are gem quality—the rest are used industrially.",
+      "The word 'diamond' comes from the Greek word 'adamas,' meaning invincible.",
+      "Diamonds are made of pure carbon, the same element found in graphite and coal.",
+      "The largest diamond ever discovered was the Cullinan Diamond at 3,106 carats.",
+      "Colored diamonds are extremely rare—only 1 in 10,000 diamonds has a natural color.",
+      "Ancient Romans believed that diamonds were splinters of fallen stars.",
+      "It takes 1 to 3 billion years for a diamond to form naturally in the Earth's mantle.",
+      "The Hope Diamond is valued at over $250 million."
+    ];
+    
+    var randomFact = facts[Math.floor(Math.random() * facts.length)];
+    document.getElementById('random-fact').textContent = randomFact;
+  </script>
+
 </body>
 </html>

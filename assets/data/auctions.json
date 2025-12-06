@@ -1,0 +1,42 @@
+{
+  "upcoming": [
+    {
+      "name": "Magnificent Jewels",
+      "date": "June 15, 2025",
+      "location": "Christie's Geneva",
+      "highlight": "Featuring a 25-carat D-flawless diamond and pieces from royal collections."
+    },
+    {
+      "name": "Important Diamonds & Colored Stones",
+      "date": "July 8, 2025",
+      "location": "Sotheby's New York",
+      "highlight": "Rare Kashmir sapphire ring expected to exceed $5 million."
+    },
+    {
+      "name": "Spring High Jewelry Sale",
+      "date": "May 22, 2025",
+      "location": "Bonhams London",
+      "highlight": "Art Deco pieces from the estate of a European aristocrat."
+    }
+  ],
+  "past": [
+    {
+      "name": "Exceptional Jewels & Watches",
+      "date": "November 12, 2024",
+      "location": "Christie's Hong Kong",
+      "highlight": "A Burmese ruby necklace sold for $18.3 million, setting a new record."
+    },
+    {
+      "name": "Magnificent Jewels Auction",
+      "date": "October 10, 2024",
+      "location": "Sotheby's Geneva",
+      "highlight": "The Winston Legacy Diamond achieved $26.7 million."
+    },
+    {
+      "name": "Noble Jewels",
+      "date": "September 18, 2024",
+      "location": "Sotheby's London",
+      "highlight": "Historic pieces from European royalty, including a tiara worn at coronations."
+    }
+  ]
+}
