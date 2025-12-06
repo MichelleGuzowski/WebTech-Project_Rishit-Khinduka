@@ -1,0 +1,5 @@
+It was interesting to interpret and implement someone elses idea, I was glad I got the Diamond edit because it is something that interests me and I thought that making this website would be very fun we also had a very similar idea of how we both wanted the product to look. 
+
+Our main challenge was for the PM to see what I was editing. since this was the first time I was doing this it was sometimes hard to push all the information and do it correctly, but we ended up figuring everything out by communicating with each other. 
+
+AI was of great help while being a dev because sometimes its hard to do exactly what the pm asks for and you dont know how so asking AI for help really simplified the proccess, I learned that AI is a very useful tool if you know how to use it wisely and believe that not everything should be done with AI but it is definetly an add on tool.
